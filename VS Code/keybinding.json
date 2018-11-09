@@ -1,0 +1,47 @@
+[
+    {
+        "key": "alt+t",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Run Tests with Watch"
+    },
+    {
+        "key": "alt+s",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Start Application"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+k ctrl+d",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.tasks.terminate"
+    },
+    {
+        "key": "ctrl+b ctrl+x",
+        "command": "extension.surrounding.command00",
+        "when": "editorHasSelection && editorTextFocus"
+    },
+    {
+        "key": "ctrl+b ctrl+e",
+        "command": "extension.surrounding.command01",
+        "when": "editorHasSelection && editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+d",
+        "command": "beautify.format"
+    }
+]
