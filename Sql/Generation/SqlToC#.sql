@@ -20,8 +20,8 @@ Case
 End As [Type],
 COLUMN_NAME
 FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_NAME = N'Product - Dev'
-And TABLE_SCHEMA = N'totalauto')
+WHERE TABLE_NAME = N'TableName'
+And TABLE_SCHEMA = N'dbo')
 
 Select 
 'public ' + [Type] + IIF([IsNullable] = 1, '?', '') + ' ' + [COLUMN_NAME] + ' { get;set; }'
